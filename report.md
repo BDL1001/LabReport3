@@ -22,7 +22,7 @@ written_2/travel_guides/berlitz2
 - The command ended up returning the directories berlitz1 and berlitz2
 - This means that we can use the *find* command to find both files of all sorts of types and directories that have a certain name pattern
 
-Source: ChatGPT using the prompt : "give me options for the bash command find that i can use on files and directories"
+Source: ChatGPT (https://chat.openai.com/chat/) using the prompt : "give me options for the bash command find that i can use on files and directories"
 
 ## *-type*
 
@@ -52,7 +52,7 @@ written_2/non-fiction/OUP/Kauffman/java
 - Files and directories that have similar or exactly the same names can be differientated from one another with *-type*
 - If we don't use the *-name* option in conjunction, *-type* can be used to separate files in a directory from subdirectories
 
-Source: ChatGPT using the prompt : "give me options for the bash command find that i can use on files and directories"
+Source: ChatGPT (https://chat.openai.com/chat/) using the prompt : "give me options for the bash command find that i can use on files and directories"
 
 ## *-size*
 
@@ -79,8 +79,9 @@ written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
 - It returned only three .txt files which means these files are the largest files in the directory
 - As stated above *-size* can help us filter out files that are very large for purposes like deletion, modification, or transfer elsewhere
 
-Sources: ChatGPT using the prompt "give me options for the bash command find that i can use on files and directories"
-         Used to determine valid arguments: https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
+Sources: 
+- ChatGPT (https://chat.openai.com/chat/) using the prompt "give me options for the bash command find that i can use on files and directories"
+- Used to determine valid arguments: https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
 
 ## *-maxdepth*
 
@@ -107,4 +108,4 @@ written_2/travel_guides/berlitz2
 - The 2nd level should be all of the files in "non-fiction" and "travel_guides" which is exactly what *find* with *-maxdepth* returned
 - Additionally to being easier to pipe files as arguments, *-maxdepth* can also give us multiple paths and file names without having to change multiple directories
 
-Source: ChatGPT using the prompt "give me options for the bash command find that i can use on files and directories"
+Source: ChatGPT (https://chat.openai.com/chat/) using the prompt "give me options for the bash command find that i can use on files and directories"
